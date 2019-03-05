@@ -1,0 +1,30 @@
+{
+  "id": 3,
+  "data": {
+    "title": "Kung Fu Panda",
+    "imdb_id": "tt0441773",
+    "url": "https://www.slashfilm.com/filmcast-episode-3-kung-fu-panda/",
+    "publish_date": "2008-06-11",
+    "regular_hosts": ["David Chen", "Devindra Hardawar", "Adam Quigley"],
+    "guest_hosts": ["Mike Sonders", "Myles McNutt"],
+    "wwbw": [
+      "Battlestar Galactica",
+      "Starship Troopers",
+      "The Princess Bride",
+      "Fight Club",
+      "The Mole (S2)",
+      "First Blood Part II",
+      "Matewan",
+      "Venture Brothers"
+    ],
+    "news": [
+      "Religulous Movie Trailer",
+      "Beverly Hills Cop for kids?",
+      "Guy Ritchie to direct Sherlock Holmes",
+      "MPAA Gives Kevin Smith Problems",
+      "DiCaprio is Nolan Bushnell",
+      "Valkyrie Trailer"
+    ],
+    "description": "In this episode of the /Filmcast, David, Devindra, and Adam debate how good the Religulous trailer really is, remember the good old days when Eddie Murphy used to say “Fuck,” try to ignore the hype/hate behind the Valkyrie trailer, and geek out about Kung Fu Panda. Special guest bloggers Mike Sonders joins us from Great White Snark and Myles McNutt joins us from Cultural Learnings."
+  }
+}

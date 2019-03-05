@@ -1,32 +1,66 @@
-.App {
-  text-align: center;
+.app-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.form-group {
+  margin-bottom: 1em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input,
+textarea {
+  padding: 0.5em;
 }
 
-.App-link {
-  color: #61dafb;
+label {
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input,
+textarea {
+  width: 500px;
+}
+
+.littleform-error-message {
+  color: red;
+}
+
+.littleform-input-inactive.littleform-input-invalid.littleform-input-touched
+  input,
+.littleform-input-inactive.littleform-input-invalid.littleform-input-touched
+  textarea,
+.littleform-form-submitted
+  .littleform-input-inactive.littleform-input-invalid
+  input,
+.littleform-form-submitted
+  .littleform-input-inactive.littleform-input-invalid
+  textarea {
+  border-color: red;
+  color: red;
+}
+
+textarea {
+  line-height: 1.4;
+  height: 150px;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  position: relative;
+  top: -1px;
+}
+
+input[type="checkbox"] + label {
+  display: inline-block;
+  padding-left: 1em;
+  font-weight: normal;
+}
+
+input[disabled] {
+  background-color: #efefef;
+}
+
+input[disabled]:hover {
+  cursor: not-allowed;
 }
